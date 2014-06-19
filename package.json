@@ -1,0 +1,33 @@
+{
+  "name": "bui-chart",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/buiteam/bui-chart",
+  "author": "",
+  "maintainers": [
+    ""
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/buiteam/bui-chart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/buiteam/bui-chart/issues"
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "chart.js",
+    "dependencies": {
+      "arale-graphic": "1.0.0",
+      "jquery": "1.8.3"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    },
+    "engines": {
+      "seajs": "2.2.1"
+    },
+    "tests": "tests/*.js"
+  }
+}
