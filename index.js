@@ -8,8 +8,8 @@ var BUI = require('bui-common'),
 
 BUI.mix(Chart, {
   Chart : require('./src/chart'),
-  Axis : require('./src/axis'),
-  Series : require('./src/series'),
+  Axis : require('./src/axis/index'),
+  Series : require('./src/series/index'),
   PlotRange : require('./src/plotrange'),
   Theme : require('./src/theme')
 });

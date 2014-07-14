@@ -4,7 +4,7 @@
  */
 
 var BUI = require('bui-common'),
-	Labels = require('./labels');
+	Labels = require('../labels');
 
 /**
  * @class BUI.Chart.ShowLabels
@@ -108,4 +108,4 @@ BUI.augment(ShowLabels,{
   }
 })
 
-return ShowLabels;
+module.exports = ShowLabels;

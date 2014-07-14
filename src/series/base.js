@@ -5,8 +5,8 @@
 
 var BUI = require('bui-common'),
   Item = require('../plotitem'),
-  ShowLabels = require('../showlabels'),
-  Actived = require('../actived'),
+  ShowLabels = require('../mixin/showlabels'),
+  Actived = require('../mixin/actived'),
   Markers = require('../markers');
 
 /**
@@ -541,4 +541,4 @@ BUI.augment(Series,{
 });
 
 
-return Series;
+module.exports = Series;

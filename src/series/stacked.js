@@ -132,4 +132,4 @@ BUI.augment(Stacked,{
 
 });
 
-return Stacked;
+module.exports = Stacked;

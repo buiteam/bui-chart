@@ -263,4 +263,4 @@ BUI.augment(Legend,{
   }
 });
 
-return Legend;
+module.exports = Legend;

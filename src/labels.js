@@ -158,4 +158,4 @@ BUI.augment(Labels,{
 });
 
 
-	return Labels;
+module.exports = Labels;

@@ -4,7 +4,7 @@
  */
 
 
-var BUI = require('bui/common'),
+var BUI = require('bui-common'),
 	PlotItem = require('./plotitem'),
 	MARKER_WIDTH = 20;
 
@@ -221,4 +221,4 @@ BUI.augment(LegendItem,{
 	}
 });
 
-return LegendItem;
+module.exports = LegendItem;

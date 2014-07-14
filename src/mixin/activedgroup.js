@@ -113,4 +113,4 @@ BUI.augment(Group,{
 
 });
 
-return Group;
+module.exports = Group;

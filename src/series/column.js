@@ -6,8 +6,8 @@
 
 var BUI = require('bui-common'),
   Util = require('bui-graphic').Util,
-  Cartesian = require('../cartesianseries'),
-  ActiveGroup = require('../activedgroup'),
+  Cartesian = require('./cartesian'),
+  ActiveGroup = require('../mixin/activedgroup'),
   Stacked = require('./stacked'),
   Group = require('./itemgroup');
 
@@ -378,4 +378,4 @@ BUI.augment(Column,{
 
 });
 
-return Column;
+module.exports = Column;

@@ -90,4 +90,4 @@ BUI.augment(Radius,{
   }
 });
 
-return Radius;
+module.exports = Radius;

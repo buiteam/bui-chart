@@ -500,4 +500,4 @@ Auto.Time.caculate = function(info){
   }
 }
 
-return Auto;
+module.exports = Auto;

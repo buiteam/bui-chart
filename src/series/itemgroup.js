@@ -5,7 +5,7 @@
 
   
 var BUI = require('bui-common'),
-  Base = require('../baseseries'),
+  Base = require('./base'),
   Util = require('bui-graphic').Util;
 
 /**
@@ -316,4 +316,4 @@ BUI.augment(Group,{
 });
 
 
-return Group;
+module.exports = Group;

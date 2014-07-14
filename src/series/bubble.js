@@ -5,8 +5,8 @@
 
 
 var BUI = require('bui-common'),
-  Cartesian = require('../cartesianseries'),
-  ActiveGroup = require('../activedgroup'),
+  Cartesian = require('./cartesian'),
+  ActiveGroup = require('../mixin/activedgroup'),
   Util = require('bui-graphic').Util;
 
 /**
@@ -207,4 +207,4 @@ BUI.augment(Bubble,{
   }
 });
 
-return Bubble;
+module.exports = Bubble;

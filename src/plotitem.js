@@ -52,7 +52,7 @@ Item.ATTRS = {
   }
 };
 
-BUI.extend(Item,Graphic.Group);
+BUI.extend(Item, Graphic.Group);
 
 BUI.augment(Item,{
 	//获取默认的属性
@@ -119,4 +119,4 @@ BUI.augment(Item,{
   }
 });
 
-return Item;
+module.exports = Item;

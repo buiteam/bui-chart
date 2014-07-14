@@ -5,9 +5,9 @@
 
 
 var BUI = require('bui-common'),
-  Line = require('../lineseries'),
+  Line = require('./line'),
   Util = require('bui-graphic').Util,
-  Stacked = require('./series/stacked'),
+  Stacked = require('./stacked'),
   REGEX_MOVE = /^M.*(M).*$/;
 
 function trySet(obj,name,value){
@@ -252,4 +252,5 @@ BUI.augment(Area,{
     return path;
   }
 });
-return Area;
+
+module.exports = Area;

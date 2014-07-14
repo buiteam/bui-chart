@@ -4,7 +4,7 @@
  */
 
 var BUI = require('bui-common'),
-	Axis = require('../baseaxis');
+	Axis = require('./base');
 
 /**
  * @class BUI.Chart.Axis.Category
@@ -137,4 +137,4 @@ BUI.augment(Category,{
     }
 });
 
-return Category;
+module.exports = Category;

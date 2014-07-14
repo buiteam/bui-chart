@@ -5,7 +5,7 @@
 
 	
 var BUI = require('bui-common'),
-	Axis = require('./baseaxis'),
+	Axis = require('./base'),
 	Util = require('bui-graphic').Util,
   abbrs = ['k','m','g','t'],
 	NAN = NaN;
@@ -232,4 +232,4 @@ BUI.augment(NumberAxis,{
   }
 });
 
-return NumberAxis;
+module.exports = NumberAxis;

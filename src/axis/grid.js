@@ -363,4 +363,4 @@ BUI.augment(Grid,{
 	}
 });
 
-return Grid;
+module.exports = Grid;

@@ -157,4 +157,4 @@ BUI.augment(PlotBack,{
 });
 
 
-return PlotBack;
+module.exports = PlotBack;

@@ -5,7 +5,7 @@
 
 
 var BUI = require('bui-common'),
-  NAixs = require('./numberaxis');
+  NAixs = require('./number');
 
 function parseTime(d){
   if(d instanceof Date){
@@ -73,4 +73,4 @@ BUI.augment(Time,{
   }
 });
 
-return Time;
+module.exports = Time;

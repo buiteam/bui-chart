@@ -5,9 +5,9 @@
 
 var BUI = require('bui-common'),
   ItemGroup = require('./itemgroup'),
-  ActiveGroup = require('../activedgroup'),
-  Util = require('bui/graphic').Util,
-  Base = require('../baseseries');
+  ActiveGroup = require('../mixin/activedgroup'),
+  Util = require('bui-graphic').Util,
+  Base = require('./base');
 
 //决定x坐标
 function ensureX(self,x){
@@ -743,4 +743,4 @@ BUI.augment(Pie,{
   }
 });
 
-return Pie;
+module.exports = Pie;

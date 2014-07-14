@@ -62,4 +62,4 @@ BUI.augment(Actived,{
 	}
 });
 
-return Actived;
+module.exports = Actived;

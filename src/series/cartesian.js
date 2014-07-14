@@ -299,4 +299,4 @@ BUI.augment(Cartesian,{
 
 });
 
-return Cartesian;
+module.exports = Cartesian;

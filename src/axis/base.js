@@ -5,7 +5,7 @@
 
 
 var BUI = require('bui-common'),
-    Abstract = require('../abstractaxis'),
+    Abstract = require('./abstract'),
     Util = require('bui-graphic').Util,
     CLS_AXIS = 'x-chart-axis';
 
@@ -615,4 +615,4 @@ BUI.augment(Axis,{
     }
 });
 
-return Axis;
+module.exports = Axis;

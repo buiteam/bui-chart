@@ -129,4 +129,5 @@ BUI.augment(PlotRange,{
 	}
 
 });
-return PlotRange;
+
+module.exports = PlotRange;

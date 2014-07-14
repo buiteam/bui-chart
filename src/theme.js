@@ -262,4 +262,4 @@ Theme.Smooth7 = Theme.initTheme(Theme.SmoothBase, {
 
 
 
-return Theme;
+module.exports = Theme;

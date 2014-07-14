@@ -415,4 +415,4 @@ var Chart = BUI.Component.Controller.extend([BUI.Component.UIBase.Bindable],{
   xclass : 'chart'
 });
 
-return Chart;
+module.exports = Chart;

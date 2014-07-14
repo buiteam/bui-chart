@@ -4,7 +4,7 @@
  */
 
 var BUI = require('bui-common'),
-  Cartesian = require('../cartesianseries'),
+  Cartesian = require('./cartesian'),
   Util = require('bui-graphic').Util;
 
 function trySet(obj,name,value){
@@ -366,4 +366,4 @@ BUI.augment(Line,{
   }
 });
 
-return Line;
+module.exports = Line;

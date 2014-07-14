@@ -5,12 +5,12 @@
 
 
 var BUI = require('bui-common'),
-  ActivedGroup = require('./activedgroup'),
+  ActivedGroup = require('./mixin/activedgroup'),
   PlotItem = require('./plotitem'),
   Legend = require('./legend'),
   Tooltip = require('./tooltip'),
-  Axis = require('./axis'),
-  Series = require('./series'),
+  Axis = require('./axis/index'),
+  Series = require('./series/index'),
   maxPixel = 120, //坐标轴上的最大间距
   minPixel = 80; //坐标轴上最小间距
 
@@ -872,4 +872,4 @@ BUI.augment(Group,{
 
 });
 
-return Group;
+module.exports = Group;

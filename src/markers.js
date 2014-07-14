@@ -6,7 +6,7 @@
 
 var BUI = require('bui-common'),
 	Util = require('bui-graphic').Util,
-	Group = require('./activedgroup'),
+	Group = require('./mixin/activedgroup'),
 	PlotItem = require('./plotitem');
 
 	
@@ -207,4 +207,4 @@ BUI.augment(Markers,{
 	}
 });
 
-return Markers;
+module.exports = Markers;

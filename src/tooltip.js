@@ -444,4 +444,4 @@ BUI.augment(Tooltip,{
 
 });
 
-return Tooltip;
+module.exports = Tooltip;

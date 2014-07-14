@@ -4,8 +4,8 @@
  */
 
 var BUI = require('bui-common'),
-  Cartesian = require('../cartesianseries'),
-  ActiveGroup = require('../activedgroup');
+  Cartesian = require('./cartesian'),
+  ActiveGroup = require('../mixin/activedgroup');
 
 function trySet(obj,name,value){
   if(obj && !obj[name]){

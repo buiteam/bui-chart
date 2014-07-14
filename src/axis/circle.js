@@ -6,7 +6,7 @@
 
 var BUI = require('bui-common'),
   Util = require('bui-graphic').Util,
-  Abstract = require('./abstractaxis');
+  Abstract = require('./abstract');
 
 var RAD = Math.PI / 180;
 
@@ -305,4 +305,4 @@ BUI.augment(Circle,{
 
 });
 
-return Circle;
+module.exports = Circle;

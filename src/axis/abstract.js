@@ -8,7 +8,7 @@ var BUI = require('bui-common'),
   Item = require('../plotitem'),
   Grid = require('./grid'),
   Util = require('bui-graphic').Util,
-  ShowLabels = require('./showlabels'),
+  ShowLabels = require('../mixin/showlabels'),
   CLS_AXIS = 'x-chart-axis';
 
 /**
@@ -347,4 +347,4 @@ BUI.augment(Abstract,{
   }
 });
 
-return Abstract;
+module.exports = Abstract;
