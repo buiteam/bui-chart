@@ -1,5 +1,7 @@
 /**/
-BUI.use(['bui/chart/chart'],function (Chart) {
+var Chart = require('../src/chart');
+
+describe('测试雷达图', function() {
   var chart = new Chart({
     width : 1000,
     height : 500,
@@ -68,7 +70,7 @@ BUI.use(['bui/chart/chart'],function (Chart) {
 });
 
 
-BUI.use(['bui/chart/chart'],function (Chart) {
+describe('测试图表生成', function() {
   var chart = new Chart({
     width : 500,
     height : 500,
@@ -127,7 +129,8 @@ BUI.use(['bui/chart/chart'],function (Chart) {
   chart.render();
   
 });
-BUI.use(['bui/chart/chart'],function (Chart) {
+
+describe('测试图表生成2', function() {
   var chart = new Chart({
     width : 1000,
     height : 500,
@@ -189,8 +192,7 @@ BUI.use(['bui/chart/chart'],function (Chart) {
   
 });
 
-
-BUI.use(['bui/chart/chart'],function (Chart) {
+describe('测试图表生成3', function() {
   var chart = new Chart({
     width : 1000,
     height : 500,
@@ -252,7 +254,7 @@ BUI.use(['bui/chart/chart'],function (Chart) {
   
 });
 
-BUI.use(['bui/chart/chart'],function (Chart) {
+describe('测试图表生成4', function() {
   var chart = new Chart({
     width : 1000,
     height : 500,
@@ -315,7 +317,7 @@ BUI.use(['bui/chart/chart'],function (Chart) {
   
 });
 
-BUI.use(['bui/chart/chart'],function (Chart) {
+describe('测试图表生成5', function() {
   var chart = new Chart({
     width : 1000,
     height : 500,
@@ -378,8 +380,7 @@ BUI.use(['bui/chart/chart'],function (Chart) {
   
 });
 
-
-BUI.use(['bui/chart/chart'],function (Chart) {
+describe('测试图表生成6', function() {
   var chart = new Chart({
     width : 1000,
     height : 500,

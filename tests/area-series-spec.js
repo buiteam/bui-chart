@@ -1,6 +1,6 @@
 var Graphic = require('bui-graphic'),
   Series = require('../src/series/area'),
-  NAxis = require('../src/series/number'),
+  NAxis = require('../src/axis/number'),
   CAxis = require('../src/axis/category');
 
 

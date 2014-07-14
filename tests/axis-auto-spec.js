@@ -1,4 +1,4 @@
-var Auto = require('../src/chart/axis/auto');
+var Auto = require('../src/axis/auto');
 
 function log(data,rst){
 	var el = $('<div class="well"></div>').appendTo('#s1');

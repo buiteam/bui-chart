@@ -1,5 +1,7 @@
 
-BUI.use(['bui/chart/chart'],function (Chart) {
+var Chart = require('../src/chart');
+
+describe('测试柱状图宽度', function() {
   var chart = new Chart({
     width : 1000,
     height : 500,
@@ -71,7 +73,7 @@ BUI.use(['bui/chart/chart'],function (Chart) {
 });
 
 
-BUI.use(['bui/chart/chart'],function (Chart) {
+describe('测试柱状图宽度2', function() {
   var chart = new Chart({
     width : 1000,
     height : 500,

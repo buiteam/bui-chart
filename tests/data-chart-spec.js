@@ -1,5 +1,7 @@
+var Chart = require('../src/chart'),
+  Data = require('bui-data');
 
-BUI.use(['bui/chart/chart'],function (Chart) {
+describe('测试图形的数据支持', function() {
   
   var chart = new Chart({
     width : 1000,
@@ -130,8 +132,7 @@ BUI.use(['bui/chart/chart'],function (Chart) {
   });
 });
 
-
-BUI.use(['bui/chart/chart','bui/data'],function (Chart,Data) {
+describe('测试图形的数据支持2', function() {
   
   var store = new Data.Store({
     url : '../data/chart.json'
@@ -268,8 +269,9 @@ BUI.use(['bui/chart/chart','bui/data'],function (Chart,Data) {
   });
 
 });
+
 /**/
-BUI.use(['bui/chart/chart','bui/data'],function (Chart,Data) {
+describe('测试图形的数据支持3', function() {
   
   var store = new Data.Store({
     url : '../data/chart.json'
@@ -409,8 +411,7 @@ BUI.use(['bui/chart/chart','bui/data'],function (Chart,Data) {
 });
 
 
-
-BUI.use(['bui/chart/chart','bui/data'],function (Chart,Data) {
+describe('测试pie的生成', function() {
 
   var store = new Data.Store({
     url : '../data/pie.json'

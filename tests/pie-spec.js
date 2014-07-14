@@ -1,7 +1,7 @@
 
+var Chart = require('../src/chart');
 
-
-BUI.use(['bui/chart/chart'],function (Chart) {
+describe('测试饼图',function(){
   var chart = new Chart({
     width : 1000,
     height : 500,
@@ -172,7 +172,7 @@ BUI.use(['bui/chart/chart'],function (Chart) {
   });
 });
 
-BUI.use(['bui/chart/chart'],function (Chart) {
+describe('测试饼图',function(){
   var chart = new Chart({
     width : 1000,
     height : 500,
@@ -244,8 +244,7 @@ BUI.use(['bui/chart/chart'],function (Chart) {
   });
 });
 
-
-BUI.use(['bui/chart/chart'],function (Chart) {
+describe('测试饼图',function(){
   var chart = new Chart({
     width : 1000,
     height : 500,
@@ -290,7 +289,7 @@ BUI.use(['bui/chart/chart'],function (Chart) {
   });
 });
 
-BUI.use(['bui/chart/chart'],function (Chart) {
+describe('测试饼图',function(){
   var chart = new Chart({
     render : '#s1',
     width : 1000,
@@ -299,7 +298,7 @@ BUI.use(['bui/chart/chart'],function (Chart) {
       margin : [50,50,100]
       
     },
-  
+
     tooltip : {
       shared : true
     },
@@ -338,5 +337,3 @@ BUI.use(['bui/chart/chart'],function (Chart) {
     
   });
 });
-/**/
-
